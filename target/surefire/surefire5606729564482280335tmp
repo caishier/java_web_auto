@@ -1,0 +1,6 @@
+#surefire
+#Tue Oct 09 11:59:11 CST 2018
+org.uncommons.reportng.escape-output=false
+user.dir=D\:\\WorkHome\\phoenix_web_case2
+localRepository=D\:\\Maven_Repo
+basedir=D\:\\WorkHome\\phoenix_web_case2

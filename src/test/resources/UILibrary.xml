@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pages>
+	<!-- page定义的是一个web页面 -->
+	<!-- keyword属性：页面关键字信息 -->>
+	<Page keyword="财务-付款管理">
+	<!-- by属性：告诉调用者在处理这个UIElement页面元素的时候根据什么方式去定位元素 -->
+	<!-- keyword属性：页面元素的关键字信息 -->
+	<!-- value属性：选择器的值 -->
+	
+		<UIElement keyword = "财务" by="xpath" value="//*[@id='33XY3G2SCUV4']/a/span"></UIElement>
+		<UIElement keyword = "付款管理" by="xpath" value="//*[@id='menu_33XY3G2SCUV4']/div/ul/li[5]/a/span"></UIElement>
+		<UIElement keyword = "修改" by="id" value="pay_btn_edit-btnInnerEl"></UIElement>
+		<UIElement keyword = "状态" by="id" value="pay_col_isOK-titleEl"></UIElement>
+		<UIElement keyword = "第一条记录" by="xpath" value="//*[@id='gridview-1076']/table/tbody/tr[2]/td[1]/div/div"></UIElement>
+		<UIElement keyword = "汇率" by="id" value="win_pay_ok_theRate-inputEl"></UIElement>
+		<UIElement keyword = "摘要说明" by="id" value="win_pay_ok_title-inputEl"></UIElement>
+		<UIElement keyword = "实付金额" by="id" value="win_pay_ok_okTheAmount-inputEl"></UIElement>
+		<UIElement keyword = "付款日期" by="id" value="win_pay_ok_theDate-inputEl"></UIElement>
+		<UIElement keyword = "收款银行" by="id" value="win_pay_ok_pay_accInfo-inputEl"></UIElement>
+		<UIElement keyword = "所属组织" by="id" value="win_pay_ok_dept_name-inputEl"></UIElement>
+		<UIElement keyword = "付款账号" by="id" value="win_pay_ok_accID-inputEl"></UIElement>
+		<UIElement keyword = "付款方式" by="id" value="win_pay_ok_payType-inputEl"></UIElement>
+		<UIElement keyword = "备注说明" by="id" value="win_pay_ok_simDesc-inputEl"></UIElement>
+		<UIElement keyword = "确定" by="id" value="win_pay_ok_ok-btnInnerEl"></UIElement>
+		<UIElement keyword = "拒绝" by="id" value="pay_btn_refuse-btnInnerEl"></UIElement>
+		<UIElement keyword = "弃审" by="id" value="pay_btn_cancel-btnInnerEl"></UIElement>
+		<UIElement keyword = "财务凭证号" by="id" value="pay_btn_voucherno-btnInnerEl"></UIElement>
+	</Page>
+	
+	<Page keyword="登录页">
+		<UIElement keyword = "用户名" by="id" value="mobilephone"></UIElement>
+		<UIElement keyword = "密码" by="id" value="password"></UIElement>
+		<UIElement keyword = "重复密码" by="id" value="pwdconfirm"></UIElement>
+		<UIElement keyword = "注册按钮" by="id" value="signup-button"></UIElement>
+	</Page>
+</Pages>

@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//src/test/java/com/lemon/phoenix/web/cases/Tool.java=UTF-8
+encoding//src/test/java/com/lemon/phoenix/web/listener/RepostListener.java=UTF-8
+encoding//src/test/java/com/lemon/phoenix/web/pojo/Page.java=UTF-8
+encoding//src/test/java/com/lemon/phoenix/web/pojo/UIElement.java=UTF-8
+encoding//src/test/java/com/lemon/web/phoenix/util/AssertionUtil.java=UTF-8
+encoding//src/test/java/com/lemon/web/phoenix/util/ExcelUtil.java=UTF-8
+encoding//src/test/java/com/lemon/web/phoenix/util/ScreenUtil.java=UTF-8
+encoding//src/test/java/com/lemon/web/phoenix/util/UILibraryUtil.java=UTF-8
+encoding//src/test/resources/log4j.properties=UTF-8

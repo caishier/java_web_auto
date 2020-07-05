@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [后台管理系统]">
+  <parameter name="driverPath" value="src/test/resources/chromedriver.exe"/>
+  <parameter name="browserType" value="chrome"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="com.lemon.phoenix.web.listener.RepostListener"/>
+  </listeners>
+  <test name="register(failed)">
+    <classes>
+      <class name="com.lemon.phoenix.web.cases.RegisterCase2">
+        <methods>
+          <include name="init"/>
+          <include name="failCase"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.lemon.phoenix.web.cases.RegisterCase2 -->
+    </classes>
+  </test> <!-- register(failed) -->
+</suite> <!-- Failed suite [后台管理系统] -->

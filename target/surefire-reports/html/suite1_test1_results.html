@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - register</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>register</h1>
+<p>
+  Test duration: 6.197s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.lemon.phoenix.web.cases.RegisterCase2</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  failCase
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.RuntimeException: java.lang.IndexOutOfBoundsException: Index: 0, Size: 0</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)<br />
+              org.testng.internal.Parameters.handleParameters(Parameters.java:429)<br />
+              org.testng.internal.Invoker.handleParameters(Invoker.java:1383)<br />
+              org.testng.internal.Invoker.createParameters(Invoker.java:1075)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:767)<br />
+              org.testng.TestRunner.run(TestRunner.java:617)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:348)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:254)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1149)<br />
+              org.testng.TestNG.run(TestNG.java:1057)<br />
+              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:74)<br />
+              org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:93)<br />
+              org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)<br />
+              com.sun.proxy.$Proxy0.invoke(Unknown Source)<br />
+              org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:145)<br />
+              org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:87)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse">java.lang.IndexOutOfBoundsException: Index: 0, Size: 0</a><br />
+        <div class="stackTrace" id="exception-1">
+                      java.util.ArrayList.rangeCheck(ArrayList.java:653)<br />
+                      java.util.ArrayList.get(ArrayList.java:429)<br />
+                      com.lemon.web.phoenix.util.ExcelUtil.listToArray(ExcelUtil.java:108)<br />
+                      com.lemon.web.phoenix.util.ExcelUtil.read(ExcelUtil.java:97)<br />
+                      com.lemon.phoenix.web.cases.RegisterCase2.ywtqplan(RegisterCase2.java:71)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+                      java.lang.reflect.Method.invoke(Method.java:498)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:135)<br />
+                      org.testng.internal.Parameters.handleParameters(Parameters.java:429)<br />
+                      org.testng.internal.Invoker.handleParameters(Invoker.java:1383)<br />
+                      org.testng.internal.Invoker.createParameters(Invoker.java:1075)<br />
+                      org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)<br />
+                      org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br />
+                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br />
+                      org.testng.TestRunner.privateRun(TestRunner.java:767)<br />
+                      org.testng.TestRunner.run(TestRunner.java:617)<br />
+                      org.testng.SuiteRunner.runTest(SuiteRunner.java:348)<br />
+                      org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)<br />
+                      org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)<br />
+                      org.testng.SuiteRunner.run(SuiteRunner.java:254)<br />
+                      org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+                      org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+                      org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)<br />
+                      org.testng.TestNG.runSuitesLocally(TestNG.java:1149)<br />
+                      org.testng.TestNG.run(TestNG.java:1057)<br />
+                      org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:74)<br />
+                      org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:93)<br />
+                      org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+                      java.lang.reflect.Method.invoke(Method.java:498)<br />
+                      org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)<br />
+                      com.sun.proxy.$Proxy0.invoke(Unknown Source)<br />
+                      org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:145)<br />
+                      org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:87)<br />
+                      org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+      </table>
+
+
+  
+</body>
+</html>

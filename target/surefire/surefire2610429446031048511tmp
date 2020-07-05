@@ -1,0 +1,6 @@
+#surefire
+#Sun Jul 22 18:38:36 CST 2018
+org.uncommons.reportng.escape-output=false
+user.dir=E\:\\HomeSpace\\phoenix_web_case
+localRepository=D\:\\localworkhome
+basedir=E\:\\HomeSpace\\phoenix_web_case

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 测试套件配置文件的约束是由dtd文件控制的-->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--定义一个测试套件-->
+<suite name="后台管理系统">
+	<!--定义一个测试集-->
+	<test name="register">
+		<!--一个测试集里可以包含哪些测试类-->
+		<classes>
+			<class name="com.lemon.phoenix.web.cases.ChangeOrders"></class>
+		</classes>
+	</test>
+	<!--定义一个参数-->
+	<parameter name="browserType" value="chrome"></parameter>
+	<parameter name="driverPath" value="src/test/resources/chromedriver.exe"></parameter>
+	<!-- 监听器的作用：在测试套件执行中，会调用我们声明的监听器去执行 -->
+	<listeners>
+	<!-- reportng提供的报表生成类 -->
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+		<!-- 准备监听器，监听执行失败的用例 并截图-->
+		<listener class-name="com.lemon.phoenix.web.listener.RepostListener"></listener>
+	</listeners>
+</suite>

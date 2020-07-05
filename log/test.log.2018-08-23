@@ -1,0 +1,7 @@
+2018-08-23 09:29:07 method: com.lemon.phoenix.web.cases.Tool.init(Tool.java:31) - [ INFO ]----配置信息：----浏览器类型：【chrome】驱动文件路径：【src/test/resources/chromedriver.exe】
+2018-08-23 09:29:17 method: com.lemon.phoenix.web.cases.Tool.init(Tool.java:48) - [ INFO ]----*****************创建chrome驱动对象，开始测试*****************
+2018-08-23 09:29:22 method: com.lemon.phoenix.web.cases.Tool.getURL(Tool.java:135) - [ INFO ]----访问测试页面：【http://39.108.136.60:8085/lmcanon_web_auto/mng/register.html】
+2018-08-23 09:29:27 method: com.lemon.phoenix.web.cases.Tool.getElement(Tool.java:94) - [ INFO ]----根据【id】【mobilephone】定位【注册页】页面的【用户名】元素
+2018-08-23 09:29:27 method: com.lemon.phoenix.web.cases.Tool.getElement(Tool.java:73) - [ INFO ]----元素定位成功
+2018-08-23 09:29:27 method: com.lemon.phoenix.web.cases.Tool.sendKeys(Tool.java:144) - [ INFO ]----写入数据：【】
+2018-08-23 09:29:27 method: com.lemon.phoenix.web.cases.Tool.getElement(Tool.java:94) - [ INFO ]----根据【id】【password】定位【注册页】页面的【密码】元素
